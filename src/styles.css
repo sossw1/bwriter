@@ -8,6 +8,15 @@
   Navajo White: #FEDC97
 */
 
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: #FEDC97;
+  font-family: Poppins, sans-serif;
+  color: #033F63;
+}
+
 a {
   color: #033F63;
   text-decoration-thickness: 1px;
@@ -20,3 +29,4 @@ a:hover {
 a:active {
   color: #28666E;
 }
+
