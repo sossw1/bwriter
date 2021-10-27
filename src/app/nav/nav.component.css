@@ -7,3 +7,13 @@
   Sage:         #B5B682
   Navajo White: #FEDC97
 */
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-size: 20px;
+  background-color: #B5B682;
+  overflow: hidden;
+  border-bottom: 1px #033F63 solid;
+}
