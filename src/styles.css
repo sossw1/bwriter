@@ -7,3 +7,16 @@
   Sage:         #B5B682
   Navajo White: #FEDC97
 */
+
+a {
+  color: #033F63;
+  text-decoration-thickness: 1px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+a:active {
+  color: #28666E;
+}
