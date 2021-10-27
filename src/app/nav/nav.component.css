@@ -17,3 +17,15 @@ nav {
   overflow: hidden;
   border-bottom: 1px #033F63 solid;
 }
+
+nav ul {
+  margin: 0;
+  padding: 10px 0;
+  display: inline;
+}
+
+nav li {
+  display: inline;
+  padding: 0;
+  padding: 0 10px;
+}
