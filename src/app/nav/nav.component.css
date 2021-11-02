@@ -12,25 +12,22 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
-  font-size: 20px;
+  font-size: 1.25rem;
   background-color: #B5B682;
-  overflow: hidden;
-  border-bottom: 1px #033F63 solid;
+  border-bottom: .1em #033F63 solid;
 }
 
 nav ul {
-  margin: 0;
-  padding: 10px 0;
   display: inline;
+  padding: 0;
 }
 
 nav li {
   display: inline;
-  padding: 0;
-  padding: 0 10px;
+  padding: 0 .5em;
 }
 
 .logo {
   display: inline;
-  margin: 0 15px 0 15%;
+  margin: 0 1em 0 15%;
 }

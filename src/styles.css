@@ -14,7 +14,7 @@
 
 body {
   margin: 0;
-  padding: 46px 0 0 0;
+  padding: 3rem 0 0 0;
   height: 100vh;
   background-color: #FEDC97;
   font-family: Poppins, sans-serif;
@@ -23,11 +23,11 @@ body {
 
 a {
   color: #033F63;
-  text-decoration-thickness: 1px;
+  text-decoration-thickness: 0.0625rem;
 }
 
 a:hover {
-  text-decoration-thickness: 2px;
+  text-decoration-thickness: 0.125rem;
 }
 
 a:active {
