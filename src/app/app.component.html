@@ -1,5 +1,8 @@
 <bw-nav></bw-nav>
 <div class="container">
-  <bw-note-list [notes]="notes"></bw-note-list>
+  <div class="menu">
+    <bw-note-list [notes]="notes"></bw-note-list>
+  </div>
+  <div class="content"></div>
   <router-outlet></router-outlet>
 </div>
