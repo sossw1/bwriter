@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'bw-note-list-item',
@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./note-list-item.component.css']
 })
 export class NoteListItemComponent implements OnInit {
+  @Input() note;
 
   constructor() { }
 
