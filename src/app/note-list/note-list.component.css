@@ -1,4 +1,3 @@
 .list-container {
-  padding: .5rem;
-  border: .125rem solid black;
+  overflow-y: scroll;
 }
