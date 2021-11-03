@@ -3,12 +3,17 @@
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 3fr;
-}
-
-.content {
-  min-height: 100vh;
+  grid-gap: .5rem;
 }
 
 .menu {
   min-height: 100vh;
+  min-width: 100%;
+  grid-column: 1/1;
+}
+
+.content {
+  min-height: 100vh;
+  min-width: 100%;
+  grid-column: 2/2;
 }
