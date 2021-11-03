@@ -1,0 +1,22 @@
+.item-container {
+  padding: .25rem;
+  border: .125rem solid black;
+  margin: .25rem;
+  border-radius: .25rem;
+}
+
+.note-title {
+  margin: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 1rem;
+}
+
+.note-body {
+  margin: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: .625rem;
+}
