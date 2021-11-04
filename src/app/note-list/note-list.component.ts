@@ -1,9 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-
-interface Note {
-  title?: String,
-  body?: String
-}
+import Note from '../../interfaces/Note';
 
 @Component({
   selector: 'bw-note-list',

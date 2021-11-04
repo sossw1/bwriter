@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import Note from '../interfaces/Note';
 
 @Component({
   selector: 'app-root',
@@ -6,7 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  notes = [
+  notes: Array<Note> = [
     {
       title: 'Note 1',
       body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ullam minima cumque sequi pariatur accusantium voluptate adipisci totam, suscipit optio ratione asperiores eius.'
