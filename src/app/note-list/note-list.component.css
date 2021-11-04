@@ -1,4 +1,6 @@
 .list-container {
   height: 75vh;
+  border: .125rem solid black;
+  border-radius: .25rem;
   overflow-y: scroll;
 }
