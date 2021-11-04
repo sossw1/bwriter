@@ -7,13 +7,11 @@
 }
 
 .menu {
-  min-height: 100vh;
   min-width: 100%;
   grid-column: 1/1;
 }
 
 .content {
-  min-height: 100vh;
   min-width: 100%;
   grid-column: 2/2;
 }

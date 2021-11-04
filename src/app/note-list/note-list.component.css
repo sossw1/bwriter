@@ -1,3 +1,4 @@
 .list-container {
+  height: calc(100vh - 2.9375rem);
   overflow-y: scroll;
 }
