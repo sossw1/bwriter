@@ -1,0 +1,17 @@
+.note-container {
+  margin: .25rem;
+  padding: 1rem;
+  border: .125rem solid black;
+  border-radius: .25rem;
+  max-height: calc(100vh - 2.9375rem - .5rem);
+  overflow-y: scroll;
+}
+
+h2 {
+  margin: 0;
+  line-height: 2rem;
+}
+
+p {
+  margin: .25rem 0 0 0;
+}
