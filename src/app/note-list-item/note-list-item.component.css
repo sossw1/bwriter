@@ -1,8 +1,7 @@
 .item-container {
   padding: .25rem;
-  border: .125rem solid black;
   margin: .25rem;
-  border-radius: .25rem;
+  border-bottom: .0625rem solid black;
 }
 
 .note-title {
