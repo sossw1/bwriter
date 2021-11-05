@@ -15,6 +15,9 @@ a {
   background-color: #fff;
   border: .0625rem solid black;
 }
+.btn:hover {
+  cursor: pointer;
+}
 
 a:hover {
   text-decoration-thickness: 0.125rem;
