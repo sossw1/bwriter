@@ -19,3 +19,10 @@
   text-overflow: ellipsis;
   font-size: .625rem;
 }
+
+.button-grid {
+  display: grid;
+  margin: .25rem .5rem;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: .5rem;
+}
