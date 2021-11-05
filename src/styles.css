@@ -14,3 +14,8 @@ a {
 a:hover {
   text-decoration-thickness: 0.125rem;
 }
+
+/* Must be at top level due to selectors */
+.last .item-container {
+  border-bottom: none !important;
+}
