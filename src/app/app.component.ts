@@ -7,6 +7,10 @@ import Note from '../interfaces/Note';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  deleteNote(value: string) {
+    
+  }
+
   notes: Array<Note> = [
     {
       title: 'Note 1',
