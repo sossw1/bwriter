@@ -37,4 +37,6 @@ export class AppComponent {
       body: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam officia corporis, sunt error molestiae ullam dolore itaque, hic aperiam quae laborum, maxime nam veniam autem impedit nemo id? Labore vero blanditiis ratione molestias deleniti impedit iure. Alias, a ex, quasi at debitis sed corrupti quis repellat nulla possimus similique? Praesentium a nulla eaque tenetur est.'
     },
   ];
+
+  note: Note = this.notes[0];
 }
