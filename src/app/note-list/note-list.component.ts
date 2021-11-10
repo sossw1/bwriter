@@ -8,6 +8,11 @@ import Note from '../../interfaces/Note';
 })
 export class NoteListComponent implements OnInit {
   @Input() notes: Array<Note> = [];
+
+  deleteNote(value: string) {
+    
+  }
+
   constructor() { }
 
   ngOnInit(): void {

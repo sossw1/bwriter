@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import Note from '../../interfaces/Note';
 
 @Component({
@@ -11,6 +11,11 @@ export class NoteListItemComponent implements OnInit {
     title: '',
     body: ''
   };
+
+  @Output() deleteNoteEvent = new EventEmitter<string>();
+  deleteNote(value: string) {
+    this.deleteNoteEvent.emit(value);
+  }
 
   constructor() { }
 

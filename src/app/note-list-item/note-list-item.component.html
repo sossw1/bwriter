@@ -3,6 +3,6 @@
   <p class="note-body">{{ note.body }}</p>
   <div class="button-grid">
     <button class="btn">Edit</button>
-    <button class="btn">Delete</button>
+    <button class="btn" (click)="deleteNote(this.note.title)">Delete</button>
   </div>
 </div>
