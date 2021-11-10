@@ -8,7 +8,11 @@ import Note from '../interfaces/Note';
 })
 export class AppComponent {
   deleteNote(value: string) {
-    
+    this.notes.forEach((note, index) => {
+      if(note.title === value) {
+        this.notes = this.notes.slice(0, index).concat(this.notes.slice(index + 1));
+      }
+    });
   }
 
   notes: Array<Note> = [
