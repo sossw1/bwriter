@@ -2,7 +2,7 @@
   <h3 class="note-title">{{ note.title }}</h3>
   <p class="note-body">{{ note.body }}</p>
   <div class="button-grid">
-    <button class="btn">Edit</button>
+    <button class="btn" (click)="viewNote(this.note.title)">Edit</button>
     <button class="btn" (click)="deleteNote(this.note.title)">Delete</button>
   </div>
 </div>
