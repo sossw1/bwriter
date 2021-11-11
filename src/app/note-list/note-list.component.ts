@@ -4,19 +4,22 @@ import Note from '../../interfaces/Note';
 @Component({
   selector: 'bw-note-list',
   templateUrl: './note-list.component.html',
-  styleUrls: ['./note-list.component.css']
+  styleUrls: ['./note-list.component.css'],
 })
 export class NoteListComponent implements OnInit {
   @Input() notes: Array<Note> = [];
-  @Output() deleteNoteEvent = new EventEmitter<string>();
 
+  @Output() viewNoteEvent = new EventEmitter<string>();
+  viewNote(value: string) {
+    this.viewNoteEvent.emit(value);
+  }
+
+  @Output() deleteNoteEvent = new EventEmitter<string>();
   deleteNote(value: string) {
     this.deleteNoteEvent.emit(value);
   }
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }

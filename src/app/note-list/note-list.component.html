@@ -1,3 +1,4 @@
 <div class="list-container scrollable">
-  <bw-note-list-item *ngFor="let note of notes; let isLast = last" [ngClass]="isLast ? 'last' : ''" [note]="note" (deleteNoteEvent)="deleteNote($event)"></bw-note-list-item>
+  <bw-note-list-item *ngFor="let note of notes; let isLast = last" [ngClass]="isLast ? 'last' : ''" [note]="note"
+    (viewNoteEvent)="viewNote($event)" (deleteNoteEvent)="deleteNote($event)"></bw-note-list-item>
 </div>
