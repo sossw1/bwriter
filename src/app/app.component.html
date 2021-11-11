@@ -1,7 +1,8 @@
 <bw-nav></bw-nav>
 <div class="container">
   <div class="menu">
-    <bw-note-list [notes]="notes" (deleteNoteEvent)="deleteNote($event)"></bw-note-list>
+    <bw-note-list [notes]="notes" (viewNoteEvent)="viewNote($event)" (deleteNoteEvent)="deleteNote($event)">
+    </bw-note-list>
   </div>
   <div class="content">
     <bw-note [note]="note"></bw-note>
