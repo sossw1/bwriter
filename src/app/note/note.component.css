@@ -7,8 +7,20 @@
 
 .title {
   display: block;
+  width: 100%;
+  height: 10%;
+  min-height: 2rem;
+  margin: 0 0 1rem;
+  padding: 0 0.5rem;
+  font-size: 2rem;
 }
 
 .body {
   display: block;
+  width: 100%;
+  height: calc(90% - 1rem);
+  margin: 0;
+  padding: 0.5rem;
+  font-size: 1.25rem;
+  overflow-y: scroll;
 }
