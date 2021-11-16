@@ -9,7 +9,7 @@
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 .note-body {
@@ -17,7 +17,7 @@
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  font-size: .625rem;
+  font-size: 1rem;
 }
 
 .button-grid {
