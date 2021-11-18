@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "bwriter-92393": {
+      "hosting": {
+        "bwriter": [
+          "bwriter-92393"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "bwriter-92393"
+  }
+}
